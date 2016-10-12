@@ -1,18 +1,18 @@
 {
-  "name": "loopback-angular-admin",
-  "subdomain": "loopback-angular-admin",
+  "name": "ArachnoSense",
+  "subdomain": "ArachnoSense",
   "description": "Quickly create admin interfaces on a Loopback 2.x API",
   "version": "0.1.1",
   "engines": {
     "node": "5.5.0",
     "npm": "3.3.12"
   },
-  "homepage": "https://github.com/beeman/loopback-angular-admin",
-  "author": "Bram Borggreve <borggreve@gmail.com>",
+  "homepage": "https://ArachnoSense.com",
+  "author": "Amit",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beeman/loopback-angular-admin"
+    "url": "https://github.com"
   },
   "bugs": {
     "url": "https://github.com/beeman/loopback-angular-admin/issues"
