@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 var path = require('path');
@@ -9,8 +10,11 @@ module.exports = function(app) {
     provider: 'filesystem',
     root: path.join(__dirname, '../', '../', 'storage')
   });
+  console.log('here');
   var container = ds.createModel('container');
 
   app.model(container);
 
+  console.log('here1');
 };
+*/

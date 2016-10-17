@@ -34,9 +34,9 @@ module.exports = function(app) {
       users: [{
         firstName: 'Guest',
         lastName: 'User',
-        email: 'user@user.com',
+        email: 'user@arachnosense.com',
         username: 'user',
-        password: 'user'
+        password: 'arachnosense'
       }]
     }];
 

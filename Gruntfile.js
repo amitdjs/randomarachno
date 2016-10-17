@@ -21,14 +21,14 @@ module.exports = function (grunt) {
     test: require('./bower.json').appPath || 'client/test',
     dist: 'dist',
     api: {
-      development: 'http://0.0.0.0:3000/api/',
+      development: 'http://localhost:3000/api/',
       production: '/api/'
     },
     site: {
-      development: 'http://0.0.0.0:3000',
+      development: 'http://localhost:3000',
       production: ''
     },
-    host: '0.0.0.0'
+    host: 'http://localhost'
   };
 
   // Define the configuration for all the tasks
@@ -554,22 +554,22 @@ module.exports = function (grunt) {
       groups: [
         {
           groupTitle: 'Admin',
-          groupId: 'loopbackApp',
+          groupId: 'ArachnoSenseApp',
           sections: [
             {
-              id: 'loopbackApp',
-              title: 'LoopBack Services',
+              id: 'arachnoSenseApps',
+              title: 'ArachnoSense Services',
               scripts: ['<%= yeoman.app %>/modules/**/{,*/}*.js']
             }
           ]
         },
         {
-          groupTitle: 'LoopBack',
-          groupId: 'loopback',
+          groupTitle: 'ArachnoSense',
+          groupId: 'ArachnoSense',
           sections: [
             {
               id: 'lbServices',
-              title: 'LoopBack Services',
+              title: 'ArachnoSense Services',
               scripts: ['<%= yeoman.app %>/js/lb-services.js']
             }
           ]

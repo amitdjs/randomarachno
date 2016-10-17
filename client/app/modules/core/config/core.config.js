@@ -72,6 +72,7 @@
       // Get Settings for Loopback Service
       $rootScope.loadSettings = function () {
         Setting.find(function (settings) {
+          console.log(settings)
           $rootScope.settings.data = settings;
         });
       };
